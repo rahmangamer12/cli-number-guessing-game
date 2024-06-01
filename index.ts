@@ -4,6 +4,7 @@ import inquirer from "inquirer";
 // 2) user input will guess the number
 // 3) if user input is higher than the random number, computer will say "too high - done
 const randomNum = Math.floor(Math.random()*10+1);
+console.log("<---Welcome To My Guessing Game--->")
 const answers = await inquirer.prompt([
     {
         type: 'number',
